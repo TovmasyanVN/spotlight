@@ -1,0 +1,27 @@
+.Nav {
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  &__main {
+    padding: 4px;
+    width: 60px;
+    background-color: black;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    transition: 0.3s all;
+    a {
+      font-size: 30px;
+      text-decoration: none;
+      color: white;
+    }
+    &:hover {
+      background-color: white;
+
+      a:hover {
+        color: blue;
+      }
+    }
+  }
+}
